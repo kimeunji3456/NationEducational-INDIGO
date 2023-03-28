@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* max-width:1024px */
+
+.inner {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    width: 90%;
+    margin: 20px auto;
+}
+
+header #logo a {
+    font-weight: 400;
+}
+
+header .gnb ul li a {
+    font-weight: 400;
+}
+
+main img {
+    height: 400px;
+}
+
+#we-are .title {
+    text-align: center;
+}
+
+#we-are .title h2 {
+    width: 100%;
+    float: none;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+#we-are .title p {
+    float: none;
+}
+
+#we-are .title p::before {
+    display: none;
+}
+
+#we-are .icon-text {
+    width: 88%;
+    margin: 0 auto;
+}
+
+#we-are .icon-text br {
+    display: none;
+}
+
+#we-are .icon-text ul li~li {
+    padding: 0 0 0 3px;
+    box-sizing: border-box;
+}
+
+section #work {
+    height: 2180px;
+    /* outline: 2px solid red; */
+}
+
+section #work h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+
+#work .img-wrap .img-box {
+    width: 50%;
+}
+
+section #blog h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    float: none;
+    margin: 0 0 50px;
+}
+
+section #blog .blog-image {
+    float: none;
+}
+
+#blog .blog-image .image {
+    width: 31%;
+}
+
+#blog .blog-image .image .txt {
+    font-weight: 400;
+}
+
+section #contact {
+    height: 420px;
+    /* outline: 2px solid red; */
+}
+
+section #contact h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    float: none;
+    margin: 20px auto 80px;
+}
+
+section #contact form {
+    width: 90%;
+    float: none;
+    margin: 0 auto 30px;
+}
+
+section #contact form span {
+    font-weight: 400;
+}
+
+section #contact form input {
+    width: 360px;
+}
+
+footer .map iframe {
+    height: 400px;
+}
